@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <!-- Variation on the Holo Light theme that styles the Action Bar -->
+    <style name="Theme.AndroidDevelopers" parent="Theme.Sherlock.ForceOverflow">
+        <item name="android:actionDropDownStyle">@style/MyDropDownNav</item>
+        <item name="actionDropDownStyle">@style/MyDropDownNav</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    <item name="android:actionBarStyle">@style/MyActionBar</item>
+        </style>
+ 
+    <!-- style the list navigation -->
+    <style name="MyDropDownNav" parent="Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+    </style>
+    
+    <style name="MyActionBar" parent="Widget.Sherlock.Light.ActionBar">
+	    <item name="android:background">@drawable/background_menu</item>
+	    <item name="background">@drawable/background_menu</item>
+	    <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+	    <item name="titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+	</style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+    	<item name="android:textColor">#ffffff</item>
+    </style>
+</resources>
