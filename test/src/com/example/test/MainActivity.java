@@ -17,7 +17,7 @@ public class MainActivity extends SherlockActivity {
         //class in com.actionbarsherlock.view and NOT android.view
         requestWindowFeature(Window.FEATURE_PROGRESS);
         setContentView(R.layout.activity_main);
-        
+        // this is just a test
         setSupportProgressBarVisibility(true);
  
 
